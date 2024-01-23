@@ -1,0 +1,38 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:url(restaurant-food.jpg);
+	background-size:cover;
+	width:100%;
+	text-align:center;
+	line-height:5em;
+}
+.center h1{
+	color:white;
+	font-size:70;
+	font-weight:bold;
+	width:900px;
+	text-align:right;
+}
+
+
+.buttons button{
+	height:50px;
+	width:150px;
+	font-size:18px;
+	font-weight:bold;
+	color:white;
+	background:#cc0000;
+	border:1px dotted red;
+	outline:none;
+	cursor:pointer;
+	border-radius:25px;
+	box-shadow:2px 2px 3px 2px white;
+	transition:0.5s;
+}
+
+.buttons button:hover{
+	background:green;
+}

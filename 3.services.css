@@ -1,0 +1,43 @@
+*{
+	margin:0px;
+}
+td{
+	cursor:pointer;
+}
+
+.navbar{
+	height:80px;
+	width:100%;
+	background:rgba(0,0,0,0.4);
+}
+
+.navbar ul{
+	float:right;
+	margin-right:20px;
+}
+
+.navbar ul li{
+	display:inline-block;
+	list-style:none;
+	margin:0px 8px;
+	line-height:80px;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	font-family:sans-serif;
+	transition:0.3s;
+	padding:6px 12px;
+}
+
+a:hover{
+	background:tomato;
+}
+
+marquee{
+	font-family:cursive;
+	font-size:40px;
+	color:coral;
+}
